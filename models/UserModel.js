@@ -23,6 +23,7 @@ Task.getLogin = function getLogin(data) {
                     data: res,
                     error: [],
                     query_result: true,
+                    input: "Hello world" 
                 };
                 resolve(require);
             }
